@@ -1,0 +1,22 @@
+.radio {
+  background-image: url("./images/sun\ raidio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1000px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sunButtons {
+  position: absolute;
+  top: 260px;
+  left: 410px;
+  transform: rotate(-3deg);
+}
